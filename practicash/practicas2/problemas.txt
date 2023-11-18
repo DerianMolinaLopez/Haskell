@@ -1,0 +1,57 @@
+-- Definir una función que nos diga qué meses corresponden  a cada estación
+-- ejemplo: Primavera == Marzo, Abril, Mayo
+
+--Definir la función mcd, tal que (mcd a b) es el máximo común divisor de a y b calculado mediante el algoritmo de Euclides. Por ejemplo, mcd 30 45 == 15
+mcd :: Integer -> Integer -> Integer
+
+-- Calcula el factorial de un numero usando: a) guardas y b) Patrones
+fact :: Integer ->  Integer
+
+-- Decir hacia donde miras si giras 90 grados
+girar90 :: Dirección -> Dirección
+
+-- Decir que color sigue en el semaforo a partir del color actual
+semaforo :: Color -> Color
+
+-- Dice si el parametro b es multiplo del parametro a
+múltiploDe :: Integer -> Integer -> Bool 
+
+-- Retorna las raíces de una funcion en base a sus coeficientes
+raíces :: Float ->    Float -> Float -> (Float, Float)
+
+-- Funcion que reciba un numero y retorne cero
+cero :: Integer -> Integer
+
+-- Recibe la edad de una persona y le dice si puede votar
+votar :: Int -> Bool
+
+-- Dice si se presenta examen, estan excentos solo los 100 
+excenta :: (Eq a, Num a) => a -> [Char]
+
+-- DE AQUI EN ADELANTE DEFINE LAS FIRMAS PARA LAS FUNCIONES
+
+-- Recibe un número y nos dice si esta en el rango 0-9
+
+-- recibe un número y nos regresa en una tupla el  previo y siguiente a dicho número
+
+-- Definir una funcion que recibe dos valores booleanos y simula el resultado del AND LOGICO
+
+-- Recibe un numero y nos retorna su valor absoluto
+
+-- Recibe un numero y nos dice que signo tiene
+{- Para enviar parámetros negativos es necesario enviarlos entre parentesis para que Haskell entienda que se trata de un numero, porque si no lo hacemos asi, al detectar el guion asume que se trata de un string. Ejemplo
+
+signo -8 Nos envia mensaje de error de tipos, por el guion al inicio del numero
+signo (-8) Nos arrojara la respuesta que hayamos programado
+signo 8 Nos arrojara la respuesta que hayamos programado, porque identifica el digito como un numero
+-}
+
+
+-- DE MOMENTO ES TODO, MUCHACHOS
+-- SI TIENEN DUDAS LOS ESTARE ATENDIENDO
+-- QUE TENGAN UNA HERMOSA TARDE...
+
+
+
+
+
