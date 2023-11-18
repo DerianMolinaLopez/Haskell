@@ -1,0 +1,17 @@
+Objetivo:
+
+Aplicar conceptos básicos de la programación en Haskell para dar solución a problemas simples, así como la utilización de guardas y definición de tipos definidos por el usuario.
+
+Actividades:
+
+Realiza las siguientes funciones en Haskell, ejecútalas y anota el resultado de cada ejecución.
+
+         1.       Dadas las dimensiones ancho y alto de dos terrenos rectangulares, definir el área del terreno mayor.
+
+       2.       En el estado de Sinaloa el periodo de siembra de hortalizas es entre los meses de noviembre a enero, fuera de esos periodos la siembra no es exitosa. Definir una función en Haskell que determine si la siembra tendrá éxito teniendo como entrada el mes. El resultado debe ser un valor booleano.
+
+       3.       Hacer una función que retorne si una persona es niño (de 0 a 11 años), joven (de 12 a 18 años), adulto (de 19 a 50) y adulto mayor (de 50 o más años).
+
+         4.       Los autos pagan tenencia se son modelo de diez años atrás al año actual. Hacer una función que dado el año actual y el modelo del auto indique si ese auto pagará tenencia o no.
+
+         5.       En el nuevo modelo de competencias los alumnos son calificados como “Sobresalientes“ si obtienen calificación de 95 a 100, “Altamente Competentes” si su calificación es entre 90 y 94, “Competente” si su calificación es 80 a89, “Suficiente” si obtiene entre 70 y 79, en caso que su calificación sea menor a 70 será “No Competente”. Hacer una función en Haskell que reciba el puntaje y retorne como salida la leyenda de competencia correspondiente.
