@@ -1,10 +1,13 @@
+/******************EJECUCION DE HASKELL CON GULP******************************** */
+
+
 const gulp = require('gulp');
 const shell = require('gulp-shell');
 const watch = require('gulp-watch');
 
-const sourceFiles = ['./practicash/practicas1/autos.hs']; // Agrega aquí todos los archivos Haskell que quieras observar
-const outputDirectory = './practicash/practicas1/';
-const executableName = 'autos';
+const sourceFiles = ['./practicash/practicas2/semaforo.hs']; // Agrega aquí todos los archivos Haskell que quieras observar
+const outputDirectory = './practicash/practicas2/';
+const executableName = 'semaforo';
 
 // Tarea para compilar archivos Haskell
 function compileHaskell() {
