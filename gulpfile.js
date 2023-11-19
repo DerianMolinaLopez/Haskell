@@ -2,9 +2,9 @@ const gulp = require('gulp');
 const shell = require('gulp-shell');
 const watch = require('gulp-watch');
 
-const sourceFiles = ['./practicas/practica2/minimoComun.hs']; // Agrega aquí todos los archivos Haskell que quieras observar
-const outputDirectory = './practicas/practica2/';
-const executableName = 'minimoComun';
+const sourceFiles = ['./practicash/practicas1/autos.hs']; // Agrega aquí todos los archivos Haskell que quieras observar
+const outputDirectory = './practicash/practicas1/';
+const executableName = 'autos';
 
 // Tarea para compilar archivos Haskell
 function compileHaskell() {
