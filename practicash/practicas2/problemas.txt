@@ -1,32 +1,32 @@
 -- Definir una función que nos diga qué meses corresponden  a cada estación
--- ejemplo: Primavera == Marzo, Abril, Mayo
+-- ejemplo: Primavera == Marzo, Abril, Mayo:TERMINADO
 
 --Definir la función mcd, tal que (mcd a b) es el máximo común divisor de a y b calculado mediante el algoritmo de Euclides. Por ejemplo, mcd 30 45 == 15
-mcd :: Integer -> Integer -> Integer
+mcd :: Integer -> Integer -> Integer:TERMINADO
 
 -- Calcula el factorial de un numero usando: a) guardas y b) Patrones
-fact :: Integer ->  Integer
+fact :: Integer ->  Integer:TERMINADO
 
 -- Decir hacia donde miras si giras 90 grados
-girar90 :: Dirección -> Dirección
+girar90 :: Dirección -> Dirección:TERMINADO
 
 -- Decir que color sigue en el semaforo a partir del color actual
-semaforo :: Color -> Color
+semaforo :: Color -> Color :TERMINADO
 
 -- Dice si el parametro b es multiplo del parametro a
-múltiploDe :: Integer -> Integer -> Bool 
+múltiploDe :: Integer -> Integer -> Bool  ::TERMINADO
 
 -- Retorna las raíces de una funcion en base a sus coeficientes
-raíces :: Float ->    Float -> Float -> (Float, Float)
+raíces :: Float ->    Float -> Float -> (Float, Float) :TERMINADO
 
 -- Funcion que reciba un numero y retorne cero
-cero :: Integer -> Integer
+cero :: Integer -> Integer :::TERMINADO
 
 -- Recibe la edad de una persona y le dice si puede votar
-votar :: Int -> Bool
+votar :: Int -> Bool::TERMINADO
 
 -- Dice si se presenta examen, estan excentos solo los 100 
-excenta :: (Eq a, Num a) => a -> [Char]
+excenta :: (Eq a, Num a) => a -> [Char]:TERMINADO
 
 -- DE AQUI EN ADELANTE DEFINE LAS FIRMAS PARA LAS FUNCIONES
 

@@ -4,6 +4,7 @@
   adulto (de 19 a 50) y adulto mayor (de 50 o más años).
 
 -}
+
 main :: IO()
 main = do
     print (edades 10)
