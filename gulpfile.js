@@ -5,9 +5,9 @@ const gulp = require('gulp');
 const shell = require('gulp-shell');
 const watch = require('gulp-watch');
 
-const sourceFiles = ['./practicash/practicas2/exentos.hs']; // Agrega aquí todos los archivos Haskell que quieras observar
-const outputDirectory = './practicash/practicas2/';
-const executableName = 'exentos';
+const sourceFiles = ['./practicash/practica3/tiposPersonas.hs']; // Agrega aquí todos los archivos Haskell que quieras observar
+const outputDirectory = './practicash/practica3/';
+const executableName = 'tiposPersonas';
 
 // Tarea para compilar archivos Haskell
 function compileHaskell() {
