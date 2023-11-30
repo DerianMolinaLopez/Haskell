@@ -7,7 +7,11 @@ main = do
     putStrLn "¿Que puerta escoges? 1, 2 o 3: "
     respuesta <- getLine
     let numero = readMaybe respuesta :: Maybe Int
+{-mostrar la puerta
 
+-}
+
+--preguntamos si esta seguro
     putStrLn "¿ESTAS SEGURO? SI O NO: "
     seguridad <- getLine
     estaSeguro seguridad numero
@@ -16,7 +20,7 @@ estaSeguro :: String -> Maybe Int -> IO ()
 estaSeguro respuesta numero 
     | respuesta == "SI" = case numero of
                             Just num -> mostrar num
-                            Nothing -> putStrLn "Número inválido."
+                            
     | otherwise = main
 
 mostrar :: Int -> IO ()
