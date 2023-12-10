@@ -5,12 +5,13 @@ const gulp = require('gulp');
 const shell = require('gulp-shell');
 const watch = require('gulp-watch');
 
-const sourceFiles = ['./practicash/Generadores/productoEscalar.hs']; // Agrega aquí todos los archivos Haskell que quieras observar
+const sourceFiles = ['./practicash/Generadores/demoGenerador.hs']; // Agrega aquí todos los archivos Haskell que quieras observar
 const outputDirectory = './practicash/Generadores/';
-const executableName = 'productoEscalar';
+const executableName = 'demoGenerador  ';
 
 // Tarea para compilar archivos Haskell
 function compileHaskell() {
+    
     return gulp.src(sourceFiles, { read: false })
         .pipe(shell(`ghc ${sourceFiles.join(' ')}`));
 }
